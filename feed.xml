@@ -79,7 +79,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; Cookies Set By The Log Out Page&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/logout_cookies.png&quot; alt=&quot;Cookies Set By The Log Out Page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/logout_cookies.png&quot; alt=&quot;Cookies Set By The Log Out Page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;What the page fails to do, is clean the &lt;code class=&quot;highlighter-rouge&quot;&gt;ASPXAUTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;ASP.Net_SessionId&lt;/code&gt;
@@ -162,7 +162,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; The System Ties To Hide Information&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/ambig_msg.png&quot; alt=&quot;The System Ties To Hide Information&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/ambig_msg.png&quot; alt=&quot;The System Ties To Hide Information&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;The error message reads:&lt;/p&gt;
@@ -199,7 +199,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 2:&lt;/b&gt; Error Message When The Number Is Registered&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/auth_err_msg.png&quot; alt=&quot;Error Message When The Number Is Registered&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/auth_err_msg.png&quot; alt=&quot;Error Message When The Number Is Registered&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;The good news is that if you enter the wrong &lt;code class=&quot;highlighter-rouge&quot;&gt;PIN&lt;/code&gt; is entered again,
@@ -221,7 +221,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 3:&lt;/b&gt; A Simple Captcha Is Used&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/simple_captcha.png&quot; alt=&quot;A Simple Captcha Is Used&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/simple_captcha.png&quot; alt=&quot;A Simple Captcha Is Used&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Once you know that a phone number is registered in the system, you
@@ -336,7 +336,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; Chave Movel Digital Authentication Options&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/auth_opts.png&quot; alt=&quot;Chave Movel Digital Authentication Options&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/auth_opts.png&quot; alt=&quot;Chave Movel Digital Authentication Options&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;I’m going to choose the phone number authentication method, since
@@ -363,7 +363,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 2:&lt;/b&gt; Digital Mobile Key login page&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/login_page.png&quot; alt=&quot;Digital Mobile Key login page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/login_page.png&quot; alt=&quot;Digital Mobile Key login page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;To login to the portal, you need to enter your mobile phone number and a
@@ -387,7 +387,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 3:&lt;/b&gt; Digital Mobile Key login page&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/enter_text.png&quot; alt=&quot;Digital Mobile Key login page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/enter_text.png&quot; alt=&quot;Digital Mobile Key login page&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;And now let’s click on “Authenticate”:&lt;/p&gt;
@@ -405,7 +405,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 4:&lt;/b&gt; User input gets copied without validation&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/enter_text_authenticate.png&quot; alt=&quot;User input gets copied without validation&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/enter_text_authenticate.png&quot; alt=&quot;User input gets copied without validation&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Even though the page says &lt;code class=&quot;highlighter-rouge&quot;&gt;The phone field only allows numbers&lt;/code&gt;, at the bottom, it
@@ -426,7 +426,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 5:&lt;/b&gt; The input is copied to the value attribute&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/value_attr_input.png&quot; alt=&quot;The input is copied to the value attribute&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/value_attr_input.png&quot; alt=&quot;The input is copied to the value attribute&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Okay, so the input is you provided initially is copied to the &lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;
@@ -448,7 +448,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; A simple XSS input&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/xss_input.png&quot; alt=&quot;A simple XSS input&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/xss_input.png&quot; alt=&quot;A simple XSS input&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;And here is the result:&lt;/p&gt;
@@ -466,7 +466,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 6:&lt;/b&gt; Successful result of an XSS injection&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/xss_result.png&quot; alt=&quot;Successful result of an XSS injection&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/xss_result.png&quot; alt=&quot;Successful result of an XSS injection&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;As you can see, our custom &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;was successfully injected into the page.
@@ -486,7 +486,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; Resulting HTML from the XSS attack&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/xss_source.png&quot; alt=&quot;Resulting HTML from the XSS attack&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/xss_source.png&quot; alt=&quot;Resulting HTML from the XSS attack&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Below is a video demonstration of how this vulnerability can be exploited
@@ -520,7 +520,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 1:&lt;/b&gt; Both of the attribute values get sent&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/form_data.png&quot; alt=&quot;Both of the attribute values get sent&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/form_data.png&quot; alt=&quot;Both of the attribute values get sent&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;p&gt;However, if we manually change the value of the &lt;code class=&quot;highlighter-rouge&quot;&gt;MainContent_hiddenMobile&lt;/code&gt;
@@ -540,7 +540,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 7:&lt;/b&gt; Manually changing the value of the hidden input &lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/manual_change.png&quot; alt=&quot;Manually changing the value of the hidden input &quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/manual_change.png&quot; alt=&quot;Manually changing the value of the hidden input &quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;style&gt;
@@ -556,7 +556,7 @@ IMG.centered {
 
 &lt;table&gt;
     &lt;caption align=&quot;bottom&quot;&gt;&lt;b&gt;Figure 8:&lt;/b&gt; The hidden input value is the one that gets echoed back&lt;/caption&gt;
-    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;../images/posts/aut_gov_vuln/manual_change_result.png&quot; alt=&quot;The hidden input value is the one that gets echoed back&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style=&quot;max-width: 600px&quot;&gt;&lt;img class=&quot;centered&quot; src=&quot;./images/posts/aut_gov_vuln/manual_change_result.png&quot; alt=&quot;The hidden input value is the one that gets echoed back&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;

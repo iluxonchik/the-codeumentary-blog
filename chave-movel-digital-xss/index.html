@@ -173,7 +173,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 1:</b> Chave Movel Digital Authentication Options</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/auth_opts.png" alt="Chave Movel Digital Authentication Options" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/auth_opts.png" alt="Chave Movel Digital Authentication Options" /></td></tr>
 </table>
 
 <p>I’m going to choose the phone number authentication method, since
@@ -200,7 +200,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 2:</b> Digital Mobile Key login page</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/login_page.png" alt="Digital Mobile Key login page" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/login_page.png" alt="Digital Mobile Key login page" /></td></tr>
 </table>
 
 <p>To login to the portal, you need to enter your mobile phone number and a
@@ -224,7 +224,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 3:</b> Digital Mobile Key login page</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/enter_text.png" alt="Digital Mobile Key login page" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/enter_text.png" alt="Digital Mobile Key login page" /></td></tr>
 </table>
 
 <p>And now let’s click on “Authenticate”:</p>
@@ -242,7 +242,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 4:</b> User input gets copied without validation</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/enter_text_authenticate.png" alt="User input gets copied without validation" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/enter_text_authenticate.png" alt="User input gets copied without validation" /></td></tr>
 </table>
 
 <p>Even though the page says <code class="highlighter-rouge">The phone field only allows numbers</code>, at the bottom, it
@@ -263,7 +263,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 5:</b> The input is copied to the value attribute</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/value_attr_input.png" alt="The input is copied to the value attribute" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/value_attr_input.png" alt="The input is copied to the value attribute" /></td></tr>
 </table>
 
 <p>Okay, so the input is you provided initially is copied to the <code class="highlighter-rouge">value</code>
@@ -285,7 +285,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 1:</b> A simple XSS input</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/xss_input.png" alt="A simple XSS input" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/xss_input.png" alt="A simple XSS input" /></td></tr>
 </table>
 
 <p>And here is the result:</p>
@@ -303,7 +303,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 6:</b> Successful result of an XSS injection</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/xss_result.png" alt="Successful result of an XSS injection" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/xss_result.png" alt="Successful result of an XSS injection" /></td></tr>
 </table>
 
 <p>As you can see, our custom <code class="highlighter-rouge">HTML</code>was successfully injected into the page.
@@ -323,7 +323,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 1:</b> Resulting HTML from the XSS attack</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/xss_source.png" alt="Resulting HTML from the XSS attack" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/xss_source.png" alt="Resulting HTML from the XSS attack" /></td></tr>
 </table>
 
 <p>Below is a video demonstration of how this vulnerability can be exploited
@@ -357,7 +357,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 1:</b> Both of the attribute values get sent</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/form_data.png" alt="Both of the attribute values get sent" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/form_data.png" alt="Both of the attribute values get sent" /></td></tr>
 </table>
 
 <p>However, if we manually change the value of the <code class="highlighter-rouge">MainContent_hiddenMobile</code>
@@ -377,7 +377,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 7:</b> Manually changing the value of the hidden input </caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/manual_change.png" alt="Manually changing the value of the hidden input " /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/manual_change.png" alt="Manually changing the value of the hidden input " /></td></tr>
 </table>
 
 <style>
@@ -393,7 +393,7 @@ IMG.centered {
 
 <table>
     <caption align="bottom"><b>Figure 8:</b> The hidden input value is the one that gets echoed back</caption>
-    <tr><td style="max-width: 600px"><img class="centered" src="../images/posts/aut_gov_vuln/manual_change_result.png" alt="The hidden input value is the one that gets echoed back" /></td></tr>
+    <tr><td style="max-width: 600px"><img class="centered" src="./images/posts/aut_gov_vuln/manual_change_result.png" alt="The hidden input value is the one that gets echoed back" /></td></tr>
 </table>
 
 <h1 id="conclusion">Conclusion</h1>
