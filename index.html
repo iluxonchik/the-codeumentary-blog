@@ -15,7 +15,7 @@
 
 <meta name="twitter:title" content="Programming, Security and Related">
 <meta name="twitter:description" content="Software development, security and other computer related topics. Blog written by Illya Gerasymchuk.">
-<meta name="twitter:creator" content="@iluxonchik">
+<meta name="twitter:creator" content="@illyaGera">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
@@ -42,6 +42,21 @@
 
 <!-- Load Modernizr -->
 <script src="./assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+<style>
+  .header-title-wrap { max-width: 760px; margin: 6px auto 0 auto; padding: 0 12px; }
+  .header-title h1 { line-height: 1.1; font-size: clamp(26px, 6vw, 44px); }
+  .header-title h2 { font-size: clamp(12px, 2vw, 22px); }
+  .header-title { margin: 8px 0 0 0; }
+  #dl-menu .dl-trigger { display: none !important; }
+  .links-bar { margin: 3pt auto 0 auto; max-width: 760px; background-color: rgba(0,0,0,0.04); border-top: 0.5pt solid rgba(0,0,0,0.08); border-bottom: 0.5pt solid rgba(0,0,0,0.08); padding: 4px 8px; color: rgba(34,34,34,0.7); letter-spacing: .15px; border-radius: 3px; }
+  .links-bar small.links-inline { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; }
+  .links-bar small.links-inline span { white-space: nowrap; }
+  @media (max-width: 600px) {
+    .header-title-wrap { max-width: 90vw; }
+    .header-title h1 { font-size: 26px; }
+    .header-title h2 { font-size: 12px; }
+  }
+</style>
 
 <!-- Icons -->
 <!-- 16x16 -->
@@ -64,51 +79,13 @@
 <body id="post-index" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-		<li><a href="./">Home</a></li>
-		<li>
-			<a href="#">About</a>
-			<ul class="dl-submenu">
-				<li>
-					<img src="./images/avatar.jpg" alt="Illya Gerasymchuk photo" class="author-photo">
-					<h4>Illya Gerasymchuk</h4>
-					<p>Software Engineer at Mercedes-Benz.io</p>
-				</li>
-				<li><a href="./about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				<li>
-					<a href="mailto:hello@illya.sh"><i class="fa fa-fw fa-envelope"></i> Email</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/iluxonchik"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
-				</li>
-				
-				
-				<li>
-					<a href="https://linkedin.com/in/iluxonchik"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
-				</li>
-				<li>
-					<a href="https://github.com/iluxonchik"><i class="fa fa-fw fa-github"></i> GitHub</a>
-				</li>
-				
-				<li>
-					<a href="https://instagram.com/iluxonchik.meow"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
-				</li>
-				
-				
-				
-			</ul><!-- /.dl-submenu -->
-		</li>
-		<li>
-			<a href="#">Posts</a>
-			<ul class="dl-submenu">
-				<li><a href="./posts/">All Posts</a></li>
-				<li><a href="./tags/">All Tags</a></li>
-			</ul>
-		</li>
-		
-	</ul><!-- /.dl-menu -->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" aria-label="Primary">
+  <ul class="dl-menu" style="display:flex;gap:12px;justify-content:center;margin:8px 0 0 0;list-style:none;padding:0">
+    <li><a href="./">Home</a></li>
+    <li><a href="./posts/">All Posts</a></li>
+    <li><a href="./tags/">All Tags</a></li>
+    <li><a href="./about/">About</a></li>
+  </ul>
 </nav><!-- /.dl-menuwrapper -->
 
 
@@ -123,6 +100,12 @@
     <div class="header-title-wrap">
       <h1>The Codeumentary</h1>
       <h2>Programming, Security and Related</h2>
+        <p class="links-bar"><small class="links-inline">
+          <span>🏠 <a href="https://illya.sh/">Illya's Homepage</a></span>
+          <span>🧠 <a href="https://illya.sh/thoughts/">Illya's Thoughts</a></span>
+          <span>🧵 <a href="https://illya.sh/threads/">Illya's Threads</a></span>
+          <span>📝 <a href="https://illya.sh/blog/">Illya's Blog</a></span>
+        </small></p>
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
@@ -1566,7 +1549,7 @@ interchangeably</li>
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2019 Illya Gerasymchuk. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+    <span>&copy; 2025 Illya Gerasymchuk. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 
